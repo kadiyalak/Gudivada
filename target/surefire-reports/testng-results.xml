@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45648" started-at="2023-07-20T16:32:36 CDT" finished-at="2023-07-20T16:33:22 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45648" started-at="2023-07-20T16:32:36 CDT" finished-at="2023-07-20T16:33:22 CDT">
+      <class name="testCases.TC_oo1_SearchProduct">
+        <test-method status="PASS" signature="Search_Page()[pri:0, instance:testCases.TC_oo1_SearchProduct@80503]" name="Search_Page" duration-ms="44655" started-at="2023-07-20T16:32:37 CDT" finished-at="2023-07-20T16:33:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Page -->
+      </class> <!-- testCases.TC_oo1_SearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
