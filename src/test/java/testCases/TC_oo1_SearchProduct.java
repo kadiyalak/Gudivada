@@ -56,7 +56,7 @@ public ResourceBundle rb;
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(rb.getString("appurl2"));/*driver.switchTo().newWindow(WindowType.WINDOW);driver.get("appurl2");*/
 		driver.manage().window().maximize();driver.manage().deleteAllCookies();
-		SearchPage2  sp1=new SearchPage2(driver);sp1.searchClick("iphone 14 pro 128gb gold");sp1.buttonClick();sp1.ButtonClick1();String output4=sp1.buttonClick2(); System.out.println(output4);String output5=output4.replace("$"," ");System.out.println(output5);String output6=(output5.trim() );System.out.println(output6);float output7=Float.parseFloat(output6);System.out.println(output7);		
+		SearchPage2  sp1=new SearchPage2(driver);sp1.searchClick("iphone 14 pro gold 128gb");sp1.buttonClick();sp1.ButtonClick1();String output4=sp1.buttonClick2(); System.out.println(output4);String output5=output4.replace("$"," ");System.out.println(output5);String output6=(output5.trim() );System.out.println(output6);float output7=Float.parseFloat(output6);System.out.println(output7);		
 	if(output7>(output3)) {System.out.println("apple store price is high");}else if(output7<output3) {System.out.println("amazonprice is low ");}else{System.out.println("both are Equal");}}
 	public String captureScreen(String tname) throws IOException{
 		

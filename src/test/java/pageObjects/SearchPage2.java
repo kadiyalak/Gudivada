@@ -28,7 +28,7 @@ WebElement search;
 @FindBy(xpath="//input[@id='nav-search-submit-button']")
 
 WebElement  Click;
-@FindBy(xpath="//div[@class='s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_3']//span[@class='a-size-medium a-color-base a-text-normal'][contains(text(),'Apple iPhone 14 Pro, 128GB, Gold - Unlocked (Renew')]")
+@FindBy(xpath=" (//span[@class='a-size-medium a-color-base a-text-normal'][contains(text(),'Apple iPhone 14 Pro, 128GB, Gold - Unlocked (Renew')])[1]")
 WebElement Click1;
 @FindBy(xpath="//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@aria-hidden='true'][normalize-space()='$939.00']")
 WebElement Click3;
@@ -42,6 +42,7 @@ public void buttonClick()
 }
 public void ButtonClick1()
 {
+	JavascriptExecutor js = (JavascriptExecutor)driver;js.executeScript("arguments[0].scrollIntoView();",Click1);
 	Click1.click();
 }
 public String  buttonClick2() {

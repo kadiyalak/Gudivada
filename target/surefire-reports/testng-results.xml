@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45648" started-at="2023-07-20T16:32:36 CDT" finished-at="2023-07-20T16:33:22 CDT">
+  <suite name="Suite" duration-ms="44389" started-at="2023-07-21T08:30:25 CDT" finished-at="2023-07-21T08:31:09 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="45648" started-at="2023-07-20T16:32:36 CDT" finished-at="2023-07-20T16:33:22 CDT">
+    <test name="Test" duration-ms="44389" started-at="2023-07-21T08:30:25 CDT" finished-at="2023-07-21T08:31:09 CDT">
       <class name="testCases.TC_oo1_SearchProduct">
-        <test-method status="PASS" signature="Search_Page()[pri:0, instance:testCases.TC_oo1_SearchProduct@80503]" name="Search_Page" duration-ms="44655" started-at="2023-07-20T16:32:37 CDT" finished-at="2023-07-20T16:33:22 CDT">
+        <test-method status="PASS" signature="Search_Page()[pri:0, instance:testCases.TC_oo1_SearchProduct@80503]" name="Search_Page" duration-ms="43507" started-at="2023-07-21T08:30:26 CDT" finished-at="2023-07-21T08:31:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search_Page -->
